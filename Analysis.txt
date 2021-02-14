@@ -1,0 +1,21 @@
+After finishing the code on an analysis of how a virus would spread in a simulation environment,
+I did an analysis on how to change the virus information (such as mortality rate, incubation time etc.)
+and as the user can edit between lines 120-126 of the main class code, I observed that a minimal change had a big impact on the speed of the virus spread. 
+First, I took as a reference the basic values of the coronavirus,
+trying to assimilate it to reality. I chose 30 as the number of users that would exist in the room where the transmission takes place. 
+After that, the R0 was around 2 points, and with a transmission time of about 400 days (or 4000 pulses of the simulation). 
+Mortality was between 6-8 dead, which is close to the established mortality probability of 30%.
+After confirming these data in various tests, I began to do much different ones.
+Among them the one that caught my attention the most was the decrease that caused sick patients to stop moving. 
+This implied the reduction of transmission by almost half, since if they continued to move, the R0 shot up to 4.3 points, and in 120-140 days (1400 tics of the simulation).
+I think this is just a simulation of a simple code, but I think it is a good reflection of how social distancing and self-quarantine can greatly reduce the spread of the virus.
+There are other values that have greatly influenced the difference in the data. 
+As the movement of the agents increased, the speed with which the virus spread also increased considerably. 
+The time it took for the entire population to become infected was reduced by almost 20% with only a 10% increase in speed, bringing the R0 to 2.8 points. 
+Another of the values that changed the results the most was the distance at which the virus could spread (also the probability with which it could do so). 
+By halving the distance, the simulation was terminated by time (standard 500 days). 
+In it, only 3-4 people died with a 30% chance of death after contracting the disease.
+Therefore, I believe that this simulation is a perfect example for the situation we live in today. 
+There are values that we cannot change in real life, such as incubation time, mortality or probability of contagion, but there are values, especially those related to the contacts of the individual 
+(either by mobility or self-quarantine) that greatly reduced the R0 and contagion. Therefore, I am aware of how reducing the movement of people can help us to put an end to this virus.
+
